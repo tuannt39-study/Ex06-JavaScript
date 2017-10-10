@@ -1,0 +1,233 @@
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.4.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-plus:before {
+    content: "\f067";
+}
+
+.fa-link:before {
+    content: "\f0c1";
+}
+
+.fa-search:before {
+    content: "\f002";
+}
+
+.fa-edit:before {
+    content: "\f044";
+}
+
+.fa-times:before {
+    content: "\f00d";
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font-family: sans-serif;
+    font:inherit;
+    vertical-align:baseline;
+	background:transparent;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+.clearfix {
+    display: inline-block
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, .87)
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 1em;
+    margin: 0;
+    line-height: 1.3em;
+    font-weight: 100
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87)
+}
+
+a:hover {
+    color: #ff4500
+}
+
+ul, li, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+#main {
+    width: 1256px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: #fff;
+    min-height: 600px;
+    overflow: hidden
+}
+
+#contentmain {
+    padding: 20px;
+    position: relative
+}
+
+.portlet{
+    padding: 0;
+    border: 1px solid #e7ecf1!important;
+    border-radius: 2px;
+    box-sizing: border-box
+}
+
+.portlet-title{
+    font-size: 16px;
+    color: #2f353b!important;
+    text-transform: uppercase!important;
+    font-weight: 700!important;
+    padding: 15px 20px 10px;
+    border-bottom: 1px solid #eef1f5;
+    min-height: 48px;
+    margin-bottom: 10px;
+    border-radius: 2px 2px 0 0;
+    box-sizing: border-box;
+}
+
+.portlet-body{
+    padding: 10px 20px 20px;
+    border-radius: 0 0 2px 2px;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5e5e5e;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #d1dade;
+    background-image: none !important;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    transition: all 0.12s linear 0s !important;
+    font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 34px;
+    width: 34px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+
+th {
+    background-color: rgb(235,235,235);
+}
+
+td {
+    text-align: center;
+}
+
+.form {
+    width: 500px;
+}

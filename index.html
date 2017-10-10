@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Danh sách bài viết</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script type="text/javascript" src="./js/javascript.js"></script>
+    </head>
+
+    <body>
+        <div id="main">
+            <header>
+
+            </header>
+
+            <nav>
+
+            </nav>
+
+            <div id="contentmain">
+                <div class="portlet">
+                    <div class="portlet-title">
+                        Danh sách bài viết
+                    </div>
+                    <div class="portlet-body">
+                        <table class="table" id="myTable">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10px"> Chọn </th>
+                                    <th style="width: 38%"> Tiêu đề bài viết </th>
+                                    <th style="width: 10px"> Danh mục </th>
+                                    <th style="width: 20px"> Lịch đăng </th>
+                                    <th style="width: 10px"> Trạng thái </th>
+                                    <th style="width: 100px"> Thao tác </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                    </td>
+                                    <td>Hình ảnh thực tế về iPhone X/iPhone 10 mới nhất của Apple </td>
+                                    <td>Công nghệ </td>
+                                    <td>02/09/2017 20:30 </td>
+                                    <td>Duyệt </td>
+                                    <td>
+                                        <a class="btn btn-warning btn-circle"><i class="fa fa-plus" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-primary btn-circle"><i class="fa fa-link" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-success btn-circle"><i class="fa fa-search" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-info btn-circle"><i class="fa fa-edit" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-danger btn-circle" onclick="deleteRow(this)"><i class="fa fa-times" style="margin-top: 9px;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                    </td>
+                                    <td>Chương trình iPhone Upgrade Program của Apple cho phép nâng cấp lên iPhone mới mà không cần mua thiết bị </td>
+                                    <td>Ứng dụng </td>
+                                    <td>03/09/2017 08:30 </td>
+                                    <td>Chặn  </td>
+                                    <td>
+                                        <a class="btn btn-warning btn-circle"><i class="fa fa-plus" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-primary btn-circle"><i class="fa fa-link" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-success btn-circle"><i class="fa fa-search" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-info btn-circle"><i class="fa fa-edit" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-danger btn-circle" onclick="deleteRow(this)"><i class="fa fa-times" style="margin-top: 9px;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                    </td>
+                                    <td>Tường thuật trực tiếp sự kiện ra mắt iPhone 8/8 Plus và iPhone X </td>
+                                    <td>Công nghệ </td>
+                                    <td>11/09/2017 10:30 </td>
+                                    <td>Duyệt </td>
+                                    <td>
+                                        <a class="btn btn-warning btn-circle"><i class="fa fa-plus" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-primary btn-circle"><i class="fa fa-link" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-success btn-circle"><i class="fa fa-search" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-info btn-circle"><i class="fa fa-edit" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-danger btn-circle" onclick="deleteRow(this)"><i class="fa fa-times" style="margin-top: 9px;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                    </td>
+                                    <td>Xiaomi giới thiệu laptop Mi Notebook Pro với vi xử lý Intel Core i7 thế hệ thứ 8 </td>
+                                    <td>Android </td>
+                                    <td>12/09/2017 14:30 </td>
+                                    <td>Duyệt </td>
+                                    <td>
+                                        <a class="btn btn-warning btn-circle"><i class="fa fa-plus" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-primary btn-circle"><i class="fa fa-link" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-success btn-circle"><i class="fa fa-search" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-info btn-circle"><i class="fa fa-edit" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-danger btn-circle" onclick="deleteRow(this)"><i class="fa fa-times" style="margin-top: 9px;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                    </td>
+                                    <td>Samsung trao thưởng lên tới 200.000 USD cho những người tìm ra lỗi smartphone của hãng </td>
+                                    <td>Công nghệ </td>
+                                    <td>13/09/2017 16:30 </td>
+                                    <td>Duyệt </td>
+                                    <td>
+                                        <a class="btn btn-warning btn-circle"><i class="fa fa-plus" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-primary btn-circle"><i class="fa fa-link" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-success btn-circle"><i class="fa fa-search" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-info btn-circle"><i class="fa fa-edit" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-danger btn-circle" onclick="deleteRow(this)"><i class="fa fa-times" style="margin-top: 9px;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                    </td>
+                                    <td>Sharp giới thiệu TV 8K 70 inch biến TV 4K của bạn thành đồ lỗi thời </td>
+                                    <td>Ứng dụng </td>
+                                    <td>14/09/2017 06:30 </td>
+                                    <td>Đặt lịch </td>
+                                    <td>
+                                        <a class="btn btn-warning btn-circle"><i class="fa fa-plus" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-primary btn-circle"><i class="fa fa-link" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-success btn-circle"><i class="fa fa-search" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-info btn-circle"><i class="fa fa-edit" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-danger btn-circle" onclick="deleteRow(this)"><i class="fa fa-times" style="margin-top: 9px;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                    </td>
+                                    <td>iPhone đã "tiến hóa" như thế nào, từ 2007 đến 2017? </td>
+                                    <td>Hệ thống </td>
+                                    <td>15/09/2017 18:30 </td>
+                                    <td>Đặt lịch </td>
+                                    <td>
+                                        <a class="btn btn-warning btn-circle"><i class="fa fa-plus" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-primary btn-circle"><i class="fa fa-link" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-success btn-circle"><i class="fa fa-search" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-info btn-circle"><i class="fa fa-edit" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-danger btn-circle" onclick="deleteRow(this)"><i class="fa fa-times" style="margin-top: 9px;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                    </td>
+                                    <td>Xiaomi ra mắt điện thoại Mi Mix 2 giá rẻ bất ngờ </td>
+                                    <td>Hệ thống </td>
+                                    <td>16/09/2017 08:30 </td>
+                                    <td>Đặt lịch </td>
+                                    <td>
+                                        <a class="btn btn-warning btn-circle"><i class="fa fa-plus" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-primary btn-circle"><i class="fa fa-link" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-success btn-circle"><i class="fa fa-search" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-info btn-circle"><i class="fa fa-edit" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-danger btn-circle" onclick="deleteRow(this)"><i class="fa fa-times" style="margin-top: 9px;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                    </td>
+                                    <td>Làm sao để xem trực tiếp sự kiện ra mắt iPhone8/8 Plus và iPhone X của Apple 00 giờ đêm nay? </td>
+                                    <td>iPhone </td>
+                                    <td>17/09/2017 15:30 </td>
+                                    <td>Đặt lịch </td>
+                                    <td>
+                                        <a class="btn btn-warning btn-circle"><i class="fa fa-plus" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-primary btn-circle"><i class="fa fa-link" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-success btn-circle"><i class="fa fa-search" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-info btn-circle"><i class="fa fa-edit" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-danger btn-circle" onclick="deleteRow(this)"><i class="fa fa-times" style="margin-top: 9px;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="checkboxes" value="1" />
+                                    </td>
+                                    <td>Apple iOS 11 biến mặt bạn thành một đống shit, tin hay không tùy bạn </td>
+                                    <td>Phần cứng </td>
+                                    <td>18/09/2017 13:30 </td>
+                                    <td>Đặt lịch </td>
+                                    <td>
+                                        <a class="btn btn-warning btn-circle"><i class="fa fa-plus" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-primary btn-circle"><i class="fa fa-link" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-success btn-circle"><i class="fa fa-search" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-info btn-circle"><i class="fa fa-edit" style="margin-top: 9px;"></i></a>
+                                        <a class="btn btn-danger btn-circle" onclick="deleteRow(this)"><i class="fa fa-times" style="margin-top: 9px;"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <footer>
+
+            </footer>
+        </div>
+        
+    </body>
+</html>
